@@ -21,6 +21,13 @@ This will create *target/spark-sql-kinesis_2.11-2.2.0.jar* file which contains t
 
 This will create *target/spark-sql-kinesis_2.11-2.3.2.jar* file which contains the connector code and its dependency jars.
 
+###### Spark version 2.4.0
+	git clone git@github.com:qubole/kinesis-sql.git
+	git checkout 2.4.0
+	cd kinesis-sql
+	mvn install -DskipTests
+
+This will create *target/spark-sql-kinesis_2.11-2.4.0.jar* file which contains the connector code and its dependency jars.
 
 ## How to use it
 
